@@ -1,4 +1,4 @@
-FROM hash14/mystormbase:v7
+FROM hash14/stormbase
 MAINTAINER Hassan SHAITOU <shaitou.hassan14@gmail.com>
 ADD start.sh /
 RUN chmod +x start.sh
