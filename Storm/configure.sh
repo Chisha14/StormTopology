@@ -16,4 +16,8 @@ if [ -n "$2" ]; then
 nimbus.host: "$2"
 EOF
 
+cat >> /usr/local/storm/apache-storm-0.9.3/conf/storm.yaml <<EOF
+storm.zookeeper.port: 2181
+EOF
+
 cat /usr/local/storm/apache-storm-0.9.3/conf/storm.yaml
